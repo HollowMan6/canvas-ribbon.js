@@ -1,6 +1,6 @@
 {
   "name": "@hollowman6/canvas-ribbon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A ribbon background drawn on canvas. (随机不规则三角彩条背景插件)",
   "main": "canvas-ribbon.js",
   "scripts": {
