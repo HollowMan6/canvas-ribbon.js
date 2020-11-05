@@ -21,7 +21,7 @@
 
 随机不规则三角彩条背景插件。
 
-此项目在 https://zhuanlan.zhihu.com/p/28257724 基础上进行了许多改进，使得使用更加方便，且适用于更多场景。
+此项目在 https://github.com/taherm/hungryr/blob/master/public/assest/js/ribbons.js 基础上进行了许多改进，使得使用更加方便，且适用于更多场景。
 
 [示例网页](sample.html) 预览效果：http://practice.hollowman.ml/canvas-ribbon.js/sample.html
 
@@ -56,7 +56,7 @@
 
 A ribbon background drawn on canvas.
 
-This project is derived from https://zhuanlan.zhihu.com/p/28257724 . Many improvements have been made to make it more convenient to use and suitable for more scenes.
+This project is derived from https://github.com/taherm/hungryr/blob/master/public/assest/js/ribbons.js . Many improvements have been made to make it more convenient to use and suitable for more scenes.
 
 [Sample Page](sample.html) real-time watching: http://practice.hollowman.ml/canvas-ribbon.js/sample.html
 
