@@ -23,7 +23,7 @@
 
 此项目在 https://github.com/taherm/hungryr/blob/master/public/assest/js/ribbons.js 基础上进行了许多改进，使得使用更加方便，且适用于更多场景。
 
-[示例网页](sample.html) 预览效果：http://practice.hollowman.ml/canvas-ribbon.js/sample.html
+[示例网页](sample.html) 预览效果：http://practice.hollowman.ml/█%20canvas-ribbon.js/sample.html
 
 观看在我的主页上的应用效果：https://hollowman6.github.io/ 
 
@@ -88,7 +88,7 @@ A ribbon background drawn on canvas.
 
 This project is derived from https://github.com/taherm/hungryr/blob/master/public/assest/js/ribbons.js . Many improvements have been made to make it more convenient to use and suitable for more scenes.
 
-[Sample Page](sample.html) real-time watching: http://practice.hollowman.ml/canvas-ribbon.js/sample.html
+[Sample Page](sample.html) real-time watching: http://practice.hollowman.ml/█%20canvas-ribbon.js/sample.html
 
 Watch the effect on my Home Page: https://hollowman6.github.io/ 
 
