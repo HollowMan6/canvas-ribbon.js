@@ -17,7 +17,7 @@
 
 (English version is down below.)
 
-![sample](/sample.png)
+![sample](sample.png)
 
 随机不规则三角彩条背景插件。
 
@@ -29,10 +29,34 @@
 
 ## 使用
 
-将下面的代码插入到 `<body> 和 </body> 之间`.
+将下面的代码插入到 `<body> 和 </body> 之间`.(你可以手动配置其中参数)
 
 ```html
 <script type="text/javascript" src="canvas-ribbon.js"></script>
+<script type="text/javascript">
+	new Ribbons({
+		// ribbon color HSL saturation amount
+		colorSaturation: "80%",
+		// ribbon color HSL brightness amount
+		colorBrightness: "50%",
+		// ribbon color opacity amount
+		colorAlpha: 0.6,
+		// how fast to cycle through colors in the HSL color space
+		colorCycleSpeed: 12,
+		// where to start from on the Y axis on each side (top|min, middle|center, bottom|max, random)
+		verticalPosition: "center",
+		// how fast to get to the other side of the screen
+		horizontalSpeed: 1,
+		// how many ribbons to keep on screen at any given time
+		ribbonCount: 3,
+		// add stroke along with ribbon fill colors
+		strokeSize: 0,
+		// move ribbons vertically by a factor on page scroll
+		parallaxAmount: -0.5,
+		// add animation effect to each ribbon section over time
+		animateSections: true
+	});
+</script>
 ```
 
 强烈建议在 `</body>`标签上方. 例如下面的代码结构:
@@ -46,6 +70,12 @@
 	...
 	...
 	<script type="text/javascript" src="canvas-ribbon.js"></script>
+	<script type="text/javascript">
+        new Ribbons({
+			...
+			...
+        });
+    </script>
 </body>
 </html>
 ```
@@ -64,10 +94,34 @@ Watch the effect on my Home Page: https://hollowman6.github.io/
 
 ## Usage
 
-Insert the code below `between <body> and </body>`.
+Insert the code below `between <body> and </body>`.(You can manually specify the options)
 
 ```html
 <script src="canvas-ribbon.js"></script>
+<script type="text/javascript">
+	new Ribbons({
+		// ribbon color HSL saturation amount
+		colorSaturation: "80%",
+		// ribbon color HSL brightness amount
+		colorBrightness: "50%",
+		// ribbon color opacity amount
+		colorAlpha: 0.6,
+		// how fast to cycle through colors in the HSL color space
+		colorCycleSpeed: 12,
+		// where to start from on the Y axis on each side (top|min, middle|center, bottom|max, random)
+		verticalPosition: "center",
+		// how fast to get to the other side of the screen
+		horizontalSpeed: 1,
+		// how many ribbons to keep on screen at any given time
+		ribbonCount: 3,
+		// add stroke along with ribbon fill colors
+		strokeSize: 0,
+		// move ribbons vertically by a factor on page scroll
+		parallaxAmount: -0.5,
+		// add animation effect to each ribbon section over time
+		animateSections: true
+	});
+</script>
 ```
 
 Strongly suggest to insert before the tag `</body>`, as the following:
@@ -81,6 +135,12 @@ Strongly suggest to insert before the tag `</body>`, as the following:
 	...
 	...
 	<script src="canvas-ribbon.js"></script>
+	<script type="text/javascript">
+        new Ribbons({
+			...
+			...
+        });
+    </script>
 </body>
 </html>
 ```
